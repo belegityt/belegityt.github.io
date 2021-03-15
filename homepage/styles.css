@@ -1,0 +1,118 @@
+html, body { 
+    height:100%; 
+    margin:0; 
+    padding:0;
+    background: white; 
+}
+img{
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#p{
+    text-indent: 2em
+}
+#left{
+    width: 50%;
+    height: 90%;
+    position: relative;
+    top: 10%;
+    left: 0;
+    float: left;
+}
+#right{
+    width: 50%;
+    height: 90%;
+    position: relative;
+    top: 10%;
+    right: 0;
+    float: left;
+}
+#photo{
+    position: absolute;
+    height: 70%;
+    width: 95%;
+    top: 15%;
+    bottom: 15%;
+    left: 5%;
+}
+#box{
+    top: 20%;
+    left: 10%;
+    height: 75%;
+    width: 80%;
+    position: absolute;
+}
+#text1{
+    min-width: 75px;
+    color: rgba(60,99,176,1);
+    position: relative;
+    font-family: Mulish;
+    font-weight: Bold;
+    font-size: 14px;
+}
+#text2{
+    color: rgba(55,63,65,1);
+    position: relative;
+    margin: 0;
+    font-family: Mulish;
+    font-weight: Bold;
+    font-size: 44px;
+    text-align: left;
+    word-wrap: break-word;
+}
+#text3{
+    color: rgba(115,123,125,1);
+    position: relative;
+    margin: 0;
+    margin-top: 10%;
+    font-family: Mulish;
+    font-size: 16px;
+}
+#title, #sub, h2{
+    margin: auto;
+    padding: 0.5em;
+    text-align: center;
+    width: 100%;
+}
+#caption{
+    font-size: 12px;
+    margin: 1px;
+    padding: 0px;
+}
+@media screen and (max-width: 860px) {
+    #left {
+        clear: both;
+        width: 100%;
+        height: fit-content;
+    }
+    #right{
+        clear: both;
+        width: 100%;
+        height: fit-content;
+    }
+    #photo{
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right:0;
+
+        width: 80%;
+        padding-bottom: 62%;
+        margin-left: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #instructionsButton{
+        margin-bottom: 10%;
+    }
+}
+@media screen and (max-width: 400px) { 
+    #logo{
+        width: calc(100% - 280px);
+    }
+}
